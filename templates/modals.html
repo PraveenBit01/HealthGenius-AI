@@ -1,0 +1,116 @@
+<!-- Disease Modal -->
+<div class="modal fade" id="diseaseModal"  tabindex="-1" aria-labelledby="diseaseModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color : #020606 ; color:white ; ">
+          <h5 class="modal-title" id="diseaseModalLabel">Predicted Disease</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="font-family: 'Roboto', sans-serif; text-align: center;">
+          <p style="font-size: 1.25rem; font-weight: bold; color: #333; text-transform: capitalize;">
+            {{ predicted_disease }}
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+
+  <!-- Description Model -->
+  <div class="modal fade" id="descriptionModal"  tabindex="-1" aria-labelledby="diseaseModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color : #020606 ; color:white ; ">
+          <h5 class="modal-title" id="diseaseModalLabel">Description</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="font-family: 'Roboto', sans-serif;">
+          <p style="font-size: 1.00rem; font-weight: bold; color: #333; text-transform: capitalize;">
+            {{ dis_des }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Precaution Model -->
+  <div class="modal fade" id="precautionModal"  tabindex="-1" aria-labelledby="diseaseModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color : #020606 ; color:white ; ">
+          <h5 class="modal-title" id="diseaseModalLabel">Precaution</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            {% for i in dis_pre %}
+              <li style="font-size: 1.00rem; font-weight: bold; color: #333; text-transform: capitalize;">{{ i }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Medications Model -->
+  <div class="modal fade" id="medicationsModal"  tabindex="-1" aria-labelledby="diseaseModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color : #020606 ; color:white ; ">
+          <h5 class="modal-title" id="diseaseModalLabel">Medications</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            {% for i in dis_med %}
+              <li style="font-size: 1.00rem; font-weight: bold; color: #333; text-transform: capitalize;">{{ i }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Workout Model -->
+  <div class="modal fade" id="workoutModal"  tabindex="-1" aria-labelledby="diseaseModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color : #020606 ; color:white ; ">
+          <h5 class="modal-title" id="diseaseModalLabel">Workout</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            {% for i in dis_wrkout %}
+              <li style="font-size: 1.00rem; font-weight: bold; color: #333; text-transform: capitalize;">{{ i }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Diets Model -->
+  <div class="modal fade" id="dietsModal"  tabindex="-1" aria-labelledby="diseaseModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color : #020606 ; color:white ; ">
+          <h5 class="modal-title" id="diseaseModalLabel">Diets</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            {% for i in dis_diet %}
+              <li style="font-size: 1.00rem; font-weight: bold; color: #333; text-transform: capitalize;">{{ i }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>

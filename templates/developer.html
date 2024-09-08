@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}Developer - Health Care Center{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1 class="mt-4">Meet the Developer</h1>
+  <div class="row align-items-start">
+    <div class="col-md-4">
+      <img src="{{ url_for('static', filename='developer.jpg') }}" alt="Developer" class="img-fluid rounded-circle w-75">
+    </div>
+    <div class="col-md-8">
+      <br></br>
+      <h2 style="margin-bottom: 15px;">Praveen Kumar</h2>
+      <p style="margin-bottom: 30px;">👋 Hello, I'm Praveen! An aspiring machine learning developer and data scientist, passionate about applying algorithms and data structures to real-world challenges.</p>
+      <h3 style="margin-bottom: 15px;">Skills</h3>
+      <ul>
+        <li>Languages: Python, C++, C, HTML, CSS, SQL</li>
+        <li>Database: MySQL</li>
+        <li>Development Tools: AWS, Docker, Git, Linux</li>
+        <li>Libraries: NumPy, Pandas, Matplotlib, OpenCV, scikit-learn, Seaborn, Plotly</li>
+        <li style="margin-bottom: 30px;">Additional Skills: Data Structures and Algorithms, Statistics</li>
+      </ul>
+      <h3 style="margin-bottom: 15px;">Contact</h3>
+      <p>Email: praveenrajputaps@example.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/praveen-kumar-3a7942231/">linkedin.com/in/praveen</a></p>
+      <p>GitHub: <a href="https://github.com/PraveenBit0">github.com/praveen</a></p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+
+
