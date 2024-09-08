@@ -33,17 +33,32 @@ HealthWise is a Python-based web application designed to provide personalized me
 
 <br></br>
 <h3>Demo Images:</h3>
+<br></br>
 
-<img width="1440" alt="Screenshot 2024-09-08 at 4 15 53 PM" src="https://github.com/user-attachments/assets/1b2c7a34-f557-41ad-b261-1046e49d88dc">
+<img width="1440" alt="Screenshot 2024-09-08 at 5 04 36 PM" src="https://github.com/user-attachments/assets/7fe24955-f280-47eb-a9d7-b48ae6a2520a">
 
-<img width="1440" alt="Screenshot 2024-09-08 at 4 16 37 PM" src="https://github.com/user-attachments/assets/622c3b5f-7844-4aa4-910d-1184451a7a77">
+<br></br>
 
-<img width="1440" alt="Screenshot 2024-09-08 at 4 16 46 PM" src="https://github.com/user-attachments/assets/e599e9e6-95e0-4e2a-8c25-b2f1dabe1125">
+<img width="1440" alt="Screenshot 2024-09-08 at 5 05 53 PM" src="https://github.com/user-attachments/assets/920c0f47-c2e4-43cd-b921-270f0c8181c0">
 
-<img width="1440" alt="Screenshot 2024-09-08 at 4 16 53 PM" src="https://github.com/user-attachments/assets/2531c25b-b71e-4b21-abba-d45a43a1382b">
+<br></br>
 
-<img width="1440" alt="Screenshot 2024-09-08 at 4 17 00 PM" src="https://github.com/user-attachments/assets/855fc36b-9fc7-487b-a8f1-c64c20da0dbf">
+<img width="1440" alt="Screenshot 2024-09-08 at 5 07 06 PM" src="https://github.com/user-attachments/assets/76c6c418-b704-4981-86d5-a8fd64cfb97a">
 
-<img width="1440" alt="Screenshot 2024-09-08 at 4 17 07 PM" src="https://github.com/user-attachments/assets/69cb865e-8a9e-4295-b1e5-72fe658950c9">
+<br></br>
 
-<img width="1440" alt="Screenshot 2024-09-08 at 4 17 14 PM" src="https://github.com/user-attachments/assets/9e3f6a54-b19b-4e00-bdd8-e169caecfb58">
+<img width="1440" alt="Screenshot 2024-09-08 at 5 07 47 PM" src="https://github.com/user-attachments/assets/0d18c46a-d00a-476e-8b3b-bf9f1893ba4d">
+
+<br></br>
+
+<img width="1440" alt="Screenshot 2024-09-08 at 5 08 16 PM" src="https://github.com/user-attachments/assets/ec881d1d-a631-40d6-a58a-bc7c586ba9bb">
+
+<br></br>
+
+<img width="1440" alt="Screenshot 2024-09-08 at 5 08 41 PM" src="https://github.com/user-attachments/assets/5549a5a7-0b93-4acc-af7e-f553fcd505fa">
+
+<br></br>
+
+<img width="1440" alt="Screenshot 2024-09-08 at 5 09 07 PM" src="https://github.com/user-attachments/assets/eaad2220-6b2c-47ea-a038-a0a83c70cb3c">
+
+
